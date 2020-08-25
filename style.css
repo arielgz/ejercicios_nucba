@@ -1,0 +1,27 @@
+.imagen-1{
+    width: 200px;
+}
+.imagen-2{
+    width: 270px;
+}
+.tabla_mp3{
+    border: solid;
+    border-collapse: collapse;
+}
+tr, td{
+    border :solid; 
+}
+
+
+.circulo1{
+    width: 12px;
+    height: 12px;
+    border-radius: 80%;
+    background-color:grey ;
+}
+.circulo2{
+    width: 12px;
+    height: 12px;
+    border-radius: 80%;
+    background-color:grey ;
+}
