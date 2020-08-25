@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio 5</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
     <h1>Cague su CV</h1>
@@ -37,5 +38,72 @@
             <button>Enviar</button>
         </p>
     </form>
+    <hr>
+
+
+    <!--Ejercicio de Tabla-->
+    <h2>Comparativa de Reproductores MP3</h2>
+    <p> Tabla Comparativa de las características técnicas de los reproductores MP3</p>
+    <table class="tabla_mp3">
+        <tr> 
+            <td></td>
+            <td colspan="3"><img class="imagen-1" src="https://tumusicid.files.wordpress.com/2013/03/6-ipod-classic.jpg" alt=""><br> Mini</td>
+            <td colspan="2"><img class="imagen-2" src="https://tumusicid.files.wordpress.com/2013/03/6-ipod-classic.jpg" alt=""><br>MP3 Grande</td>
+        </tr> 
+        <tr>
+            <td>Capacidad de<br>almacenamiento</td>
+          
+            <td>4GB<br>(1.000<br>canciones)</td>
+            <td>8GB<br>(2.000<br>canciones)</td>
+            <td>16GB<br>(16.000<br>canciones)</td>
+            <td>30GB<br>(7.500<br>canciones)</td>
+            <td>80GB<br>(20.000<br>canciones)</td>
+           </tr>
+        <tr>
+            <td>Colores</td>
+            <td><div class="circulo1"></div></td>
+            <td><div class="circulo2"></div> <div class="circulo2"></div> <div class="circulo2"></div> </td>
+            <td><div class="circulo1"></div> <td><div class="circulo1"></div></td> </td>
+            <td><div class="circulo1"></div></td> </td>
+        </tr>
+        <tr>
+            <td>Pantalla</td>
+            <td colspan="3">LCD de 3mm (Diagonal) con<br>retroiluminación</td>
+            <td colspan="2">LCD de 6mm (Diagonal) con<br>retroiluminación</td>
+            
+           
+        </tr>
+        <tr>
+            <td>Tiempo de<br>carga</td>
+            <td colspan="3">Unas 3 horas</td>
+            <td >Unas 4 horas</td>
+            <td>Unas 2 horas para<br>alcanzar el 80% de<br>la capacidad</td>
+        </tr>
+    </table>
+    
+       
+
+
+    <h1> Fusión de columnas </h1>
+    <table>
+        <tr>
+            <td colspan="2"> Primera columna </td>
+        </tr>
+        <tr>
+            <td> Segunda columna </td>
+            <td> Tercera columna </td>
+        </tr>
+    </table>
+
+    <h1> Fusión de filas </h1>
+    <table>
+        <tr>
+            <td> Primera columna </td>
+            <td rowspan="2"> Segunda columna </td>
+        </tr>
+        <tr>
+            <td> Tercera columna </td>
+        </tr>
+    </table>
 </body>
 </html>
