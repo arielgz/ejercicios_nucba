@@ -1,0 +1,113 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    letter-spacing: 0.6px;
+    background: #f8eef0;
+    color: #1c1d3b;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+}   
+.login__inputs{
+    width: 75%;
+    max-width: 600px;
+}
+.login__inputs p {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.login__inputs p label{
+    padding-bottom: 10px;
+}
+.login__inputs p input {
+    height: 40px;
+    border: none;
+    padding: 0 20px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    color: #111261;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.login__inputs p input::placeholder {
+    color: rgb(120, 162, 252);
+    
+
+}
+.login__inputs p button {
+    width: 100%;
+    height: 45px;
+    background: rgb(74, 38, 236);
+    color: rgb(241, 155, 155);
+    border-radius: 25px;
+    border: 1px solid;
+    font-family: fantasy;
+    font-size: 20px;
+    letter-spacing: 0.6px;
+    font-weight: 600;
+    cursor: pointer;
+
+    
+}
+.login__img {
+    visibility: hidden;
+}
+
+
+@media screen and (min-width: 1000px){
+    .login__img {
+        visibility: visible;
+        border-radius: 0 20px 20px 0;
+        width: 100%;
+        height: 100%;
+        background-image: url(https://previews.123rf.com/images/nadezdagrapes/nadezdagrapes1707/nadezdagrapes170700053/81636997-patr%C3%B3n-ex%C3%B3tico-sin-fisuras-con-plantas-tropicales-vector-mano-dibujar-fondo-.jpg) ;
+        background-size: cover;
+        background-repeat:no-repeat ;
+        background-position:center;
+    }
+   .login__inputs {
+       width: 100%;
+       height: 100%;
+       margin: auto;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+   }
+   .login__inputs p {
+       width: 70%;
+       margin: 10px 0;
+   }
+   .content {
+       width: 50%;
+       background: #f4f4f4;
+       height: 60%;
+       flex-direction: row;
+       border-radius: 20px;
+       box-shadow: 0px 0px 26px 5px rgba(0, 0, 0, 0.62);
+
+   }
+   html, body {
+       background: #202157;
+   }
+   .login__inputs p:last-child button {
+       width: 100%;
+   }
+
+}
+
